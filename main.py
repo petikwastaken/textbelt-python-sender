@@ -5,7 +5,6 @@ os.system('python -m pip install --upgrade pip')
 os.system('pip install requests')
 os.system('pip3 install requests')
 import requests
-import time as t
 import random
 def cls():
     os.system('cls')
@@ -70,4 +69,7 @@ if(confirm == int(confirmUsr)):
     else:
         print("Something went wrong...")
         print(respDebug)
+print("")
 input('Press ENTER to EXIT')
+print("")
+print("EXITING...")
